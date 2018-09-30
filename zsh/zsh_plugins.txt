@@ -1,0 +1,14 @@
+mafredri/zsh-async
+robbyrussell/oh-my-zsh
+rupa/z
+Tarrasch/zsh-bd
+zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions branch:develop
+junegunn/fzf
+sindresorhus/pure
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-syntax-highlighting
+spwhitt/nix-zsh-completions
+
+# TODO: make it work
+# chisui/zsh-nix-shell branch:issue-1
