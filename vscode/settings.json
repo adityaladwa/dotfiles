@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Night Blue",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.matchBrackets": false
+}
