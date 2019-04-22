@@ -9,3 +9,4 @@ export PATH=/usr/local/mysql-8.0.12-macos10.13-x86_64/bin:$PATH
 export PATH=/Users/adityaladwa/Library/Android/sdk/platform-tools:$PATH
 export PATH=/Applications/Postgres.app/Contents/Versions/10/bin:$PATH
 export PATH=/Users/adityaladwa/Library/Android/flutter/bin:$PATH
+export PATH=/Users/adityaladwa/kotlin-native/bin:$PATH
