@@ -15,4 +15,4 @@ autoload -U promptinit; promptinit
 prompt pure
 
 source <(antibody init)
-antibody bundle < ~/.zsh_plugins.txt
+antibody bundle < ~/.dotfiles/zsh/zsh_plugins.txt
