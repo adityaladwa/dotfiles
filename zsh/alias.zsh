@@ -1,2 +1,2 @@
 alias ll='ls -l'
-alias gd='git diff'
+alias la="la -a"

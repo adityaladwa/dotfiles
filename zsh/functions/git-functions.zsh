@@ -1,6 +1,15 @@
-gs(){
+function gs(){
     git status
 }
-gcommit(){
-    git commit -m '$1'
+
+function gd(){
+    git diff
+}
+
+function ga(){
+    git add $1
+}
+
+function gc(){
+    git commit -m $1
 }
