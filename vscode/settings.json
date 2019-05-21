@@ -4,5 +4,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.suggestSelection": "first",
-    "editor.matchBrackets": false
+    "editor.matchBrackets": false,
+    "terminal.external.osxExec": "iTerm.app"
 }
