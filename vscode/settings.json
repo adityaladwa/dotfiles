@@ -1,7 +1,8 @@
 {
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "Night Blue",
+    "workbench.colorTheme": "VS Snazzy Theme",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
     "editor.matchBrackets": false
 }
