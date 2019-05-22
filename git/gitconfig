@@ -1,0 +1,20 @@
+[user]
+	name = Aditya Ladwa
+	email = ladwa.aditya@gmail.com
+[mergetool]
+	path = /usr/bin/nvim
+	prompt = false
+    keepBackup = false
+[color]
+	ui = true
+[core]
+	editor = nvim
+[github]
+    user = LadwaAditya
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
