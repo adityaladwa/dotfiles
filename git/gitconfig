@@ -11,10 +11,3 @@
 	editor = nvim
 [github]
     user = LadwaAditya
-[color "diff"]
-	meta = yellow
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
