@@ -11,6 +11,7 @@ source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/zsh/env.zsh
 source ~/.dotfiles/zsh/options.zsh
 source ~/.dotfiles/zsh/alias.zsh
+source ~/.nix-profile/etc/profile.d/nix.sh
 
 autoload -U promptinit; promptinit
 prompt pure
