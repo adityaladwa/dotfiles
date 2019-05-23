@@ -1,7 +1,7 @@
 {
     "explorer.confirmDelete": false,
     "workbench.colorTheme": "VS Snazzy Theme",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "Menlo",
     "editor.fontLigatures": true,
     "editor.suggestSelection": "first",
     "editor.matchBrackets": false,

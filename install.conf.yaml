@@ -1,0 +1,26 @@
+# Settings
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true # Swap original file
+
+# Clean remove dead symbolic links
+- clean: ["~"]
+
+# Run shell commands
+- shell:
+    # Install submodules
+    - [git submodule update --init --recursive, Installing submodules]
+
+# Symlink files
+- link:
+    # Zsh
+    ~/.zshrc: zsh/zshrc.zsh
+    ~/.zprofile: zsh/zprofile.zsh
+    # Git
+    ~/.gitconfig: git/gitconfig
+    # Neovim
+    ~/.config/nvim: nvim
+    # VS Code
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
