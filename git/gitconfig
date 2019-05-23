@@ -11,5 +11,3 @@
 	editor = nvim
 [github]
 	user = LadwaAditya
-[diff]
-	tool = /usr/bin/nvim

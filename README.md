@@ -1,0 +1,5 @@
+# My configuration files for macOS
+
+> Zsh, VS Code, Neovim
+
+![](https://i.imgur.com/QOGWyBG.png)
