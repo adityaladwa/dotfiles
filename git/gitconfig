@@ -4,10 +4,12 @@
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
-    keepBackup = false
+	keepBackup = false
 [color]
 	ui = true
 [core]
 	editor = nvim
 [github]
-    user = LadwaAditya
+	user = LadwaAditya
+[diff]
+	tool = /usr/bin/nvim
