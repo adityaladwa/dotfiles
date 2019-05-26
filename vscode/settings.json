@@ -6,5 +6,8 @@
     "editor.suggestSelection": "first",
     "editor.matchBrackets": false,
     "editor.fontSize": 16,
-    "terminal.external.osxExec": "iTerm.app"
+    "terminal.external.osxExec": "iTerm.app",
+    "window.zoomLevel": 0,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "go.autocompleteUnimportedPackages": true
 }
