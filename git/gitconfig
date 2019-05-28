@@ -26,3 +26,5 @@
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[alias]
+	last = log -1 HEAD
