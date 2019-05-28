@@ -9,5 +9,6 @@
     "terminal.external.osxExec": "iTerm.app",
     "window.zoomLevel": 0,
     "java.configuration.checkProjectSettingsExclusions": false,
-    "go.autocompleteUnimportedPackages": true
+    "go.autocompleteUnimportedPackages": true,
+    "workbench.startupEditor": "welcomePage"
 }
