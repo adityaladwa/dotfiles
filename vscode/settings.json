@@ -10,5 +10,6 @@
     "window.zoomLevel": 0,
     "java.configuration.checkProjectSettingsExclusions": false,
     "go.autocompleteUnimportedPackages": true,
-    "workbench.startupEditor": "welcomePage"
+    "workbench.startupEditor": "welcomePage",
+    "editor.wordBasedSuggestions": false
 }
