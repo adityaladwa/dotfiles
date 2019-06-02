@@ -12,5 +12,6 @@
     "go.autocompleteUnimportedPackages": true,
     "workbench.startupEditor": "welcomePage",
     "editor.wordBasedSuggestions": false,
-    "terminal.integrated.fontSize": 16
+    "terminal.integrated.fontSize": 16,
+    "dart.flutterSdkPath": "/Users/adityaladwa/flutter"
 }

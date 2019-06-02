@@ -2,7 +2,12 @@ tap "getantibody/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "cocoapods"
 brew "go"
+brew "usbmuxd", args: ["HEAD"]
+brew "libimobiledevice", args: ["HEAD"]
+brew "ideviceinstaller"
+brew "ios-deploy"
 brew "neovim"
 brew "screenfetch"
 brew "tig"
