@@ -4,8 +4,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
-export PATH=/usr/local/mysql-8.0.12-macos10.13-x86_64/bin:$PATH
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 export PATH=/Applications/Postgres.app/Contents/Versions/10/bin:$PATH
 export PATH=$HOME/Library/Android/flutter/bin:$PATH
 export PATH=$HOME/kotlin-native/bin:$PATH
+export PATH=$HOME/flutter/bin:$PATH
