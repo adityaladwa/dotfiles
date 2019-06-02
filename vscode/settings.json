@@ -11,5 +11,6 @@
     "java.configuration.checkProjectSettingsExclusions": false,
     "go.autocompleteUnimportedPackages": true,
     "workbench.startupEditor": "welcomePage",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": false,
+    "terminal.integrated.fontSize": 16
 }
