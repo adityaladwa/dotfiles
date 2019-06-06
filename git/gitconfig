@@ -1,6 +1,7 @@
 [user]
 	name = Aditya Ladwa
 	email = ladwa.aditya@gmail.com
+	signingkey = 3B4C1302946CACCC
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
@@ -28,3 +29,5 @@
 	whitespace = red reverse
 [alias]
 	last = log -1 HEAD
+[commit]
+	gpgsign = true
