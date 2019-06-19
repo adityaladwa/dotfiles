@@ -13,5 +13,6 @@
     "workbench.startupEditor": "welcomePage",
     "editor.wordBasedSuggestions": false,
     "terminal.integrated.fontSize": 16,
-    "dart.flutterSdkPath": "/Users/adityaladwa/flutter"
+    "dart.flutterSdkPath": "/Users/adityaladwa/flutter",
+    "java.errors.incompleteClasspath.severity": "ignore"
 }
