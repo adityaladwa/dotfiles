@@ -30,4 +30,4 @@
 [alias]
 	last = log -1 HEAD
 [commit]
-	gpgsign = true
+	gpgsign = false
