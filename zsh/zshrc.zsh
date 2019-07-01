@@ -7,3 +7,4 @@ source ~/.dotfiles/zsh/options.zsh
 source ~/.dotfiles/zsh/alias.zsh
 source <(antibody init)
 antibody bundle < ~/.dotfiles/zsh/zsh_plugins.txt
+source ~/.dotfiles/zsh/pure.zsh
