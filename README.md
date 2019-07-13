@@ -2,4 +2,4 @@
 
 > Zsh, VS Code, Neovim
 
-![](https://i.imgur.com/QOGWyBG.png)
+![](https://i.imgur.com/6oT85Op.png)
