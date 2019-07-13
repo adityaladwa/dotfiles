@@ -14,5 +14,6 @@
     "editor.wordBasedSuggestions": false,
     "terminal.integrated.fontSize": 16,
     "dart.flutterSdkPath": "/Users/adityaladwa/flutter",
-    "java.errors.incompleteClasspath.severity": "ignore"
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "terminal.integrated.shell.osx": "/bin/zsh"
 }

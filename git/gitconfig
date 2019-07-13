@@ -1,7 +1,7 @@
 [user]
 	name = Aditya Ladwa
 	email = ladwa.aditya@gmail.com
-	signingkey = 3B4C1302946CACCC
+	signingkey = 99C20E8BC112D78A
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
