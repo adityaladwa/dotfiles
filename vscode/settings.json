@@ -8,6 +8,7 @@
     "editor.fontSize": 16,
     "terminal.external.osxExec": "iTerm.app",
     "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
     "java.configuration.checkProjectSettingsExclusions": false,
     "go.autocompleteUnimportedPackages": true,
     "workbench.startupEditor": "welcomePage",
@@ -15,5 +16,6 @@
     "terminal.integrated.fontSize": 16,
     "dart.flutterSdkPath": "/Users/adityaladwa/flutter",
     "java.errors.incompleteClasspath.severity": "ignore",
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.iconTheme": "vscode-great-icons"
 }
