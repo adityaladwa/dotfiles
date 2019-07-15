@@ -9,6 +9,8 @@
     "terminal.external.osxExec": "iTerm.app",
     "window.zoomLevel": 0,
     "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
     "java.configuration.checkProjectSettingsExclusions": false,
     "go.autocompleteUnimportedPackages": true,
     "workbench.startupEditor": "welcomePage",
