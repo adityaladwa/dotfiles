@@ -12,7 +12,7 @@
 	editor = nvim
 	autocrlf = input
 [github]
-	user = LadwaAditya
+	user = adityaladwa
 [diff]
 	tool = nvimdiff
 [color "diff-highlight"]
