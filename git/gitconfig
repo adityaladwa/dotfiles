@@ -29,5 +29,3 @@
 	whitespace = red reverse
 [alias]
 	last = log -1 HEAD
-[commit]
-	gpgsign = false
