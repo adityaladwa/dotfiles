@@ -1,0 +1,6 @@
+set backspace=indent,eol,start
+set autoindent
+set history=50
+set ruler
+set showcmd
+set incsearch

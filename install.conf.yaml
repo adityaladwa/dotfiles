@@ -20,6 +20,8 @@
     ~/.zprofile: zsh/zprofile.zsh
     # Git
     ~/.gitconfig: git/gitconfig
+    #Vim
+    ~/.vimrc: vim/vimrc
     # Neovim
     ~/.config/nvim: nvim
     # VS Code

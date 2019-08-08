@@ -11,6 +11,8 @@
 [core]
 	editor = nvim
 	autocrlf = input
+[commit]
+    gpgSign = true
 [github]
 	user = adityaladwa
 [diff]
