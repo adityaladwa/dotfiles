@@ -31,3 +31,6 @@
 	whitespace = red reverse
 [alias]
 	last = log -1 HEAD
+[url "ssh://git@source.golabs.io/"]
+  insteadOf = "https://source.golabs.io/"
+

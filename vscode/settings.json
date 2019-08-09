@@ -19,5 +19,6 @@
     "dart.flutterSdkPath": "/Users/adityaladwa/flutter",
     "java.errors.incompleteClasspath.severity": "ignore",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "workbench.iconTheme": "vscode-great-icons"
+    "workbench.iconTheme": "vscode-great-icons",
+    "go.useLanguageServer": true
 }
