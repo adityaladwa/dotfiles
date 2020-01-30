@@ -1,7 +1,7 @@
 [user]
 	name = Aditya Ladwa
 	email = ladwa.aditya@gmail.com
-	signingkey = 99C20E8BC112D78A
+	signingkey = F46EED4A5CCE37CC
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
@@ -34,3 +34,5 @@
 [url "ssh://git@source.golabs.io/"]
   insteadOf = "https://source.golabs.io/"
 
+[pull]
+	rebase = true

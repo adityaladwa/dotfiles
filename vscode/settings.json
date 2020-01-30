@@ -1,8 +1,8 @@
 {
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "One Dark Pro Bold",
-    "editor.fontFamily": "Menlo",
-    "editor.fontLigatures": true,
+    "workbench.colorTheme": "VS Snazzy Theme",
+    "editor.fontFamily": "Iosevka",
+    "editor.fontLigatures": false,
     "editor.suggestSelection": "first",
     "editor.matchBrackets": false,
     "editor.fontSize": 16,
@@ -20,5 +20,6 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "vscode-great-icons",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "workbench.editor.showTabs": false
 }
