@@ -30,11 +30,8 @@ Plug 'prettier/vim-prettier', {
 Plug 'tpope/vim-fugitive' " Git wrapper.
 Plug 'mhinz/vim-signify' " Show a diff using Vim its sign column.
 
-" Nix
-Plug 'LnL7/vim-nix', { 'for': 'nix' } " Vim configuration files for Nix.
-
 " Looks
-Plug 'nikitavoloboev/vim-monokai-night' " Theme
+Plug 'connorholyday/vim-snazzy' " Theme
 
 call plug#end()
 
@@ -125,7 +122,7 @@ set grepformat^=%f:%l:%c:%m
 set viewoptions=cursor,slash,unix
 
 " Theme
-colorscheme monokai-night
+colorscheme snazzy
 
 " Bufferline
 let g:bufferline_echo = 0
