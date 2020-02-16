@@ -1,6 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/adityaladwa/go/src/github.com/adityaladwa/go-microservices/accountservice/services'
-let g:netrw_dirhist_2='/Users/adityaladwa/source/learn-clojure'
-let g:netrw_dirhist_3='/Users/adityaladwa/source/learn-clojure/src'
-let g:netrw_dirhist_4='/Users/adityaladwa/source/learn-clojure/src/learn_clojure'
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/adityaladwa/.dotfiles/nvim'
+let g:netrw_dirhist_3='/Users/adityaladwa/.dotfiles'
+let g:netrw_dirhist_2='/Users/adityaladwa/.dotfiles/nvim'
+let g:netrw_dirhist_1='/Users/adityaladwa/.dotfiles'
