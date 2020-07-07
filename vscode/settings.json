@@ -5,7 +5,7 @@
     "editor.fontLigatures": false,
     "editor.suggestSelection": "first",
     "editor.matchBrackets": false,
-    "editor.fontSize": 16,
+    "editor.fontSize": 18,
     "terminal.external.osxExec": "iTerm.app",
     "window.zoomLevel": 0,
     "files.autoSave": "afterDelay",
@@ -15,11 +15,26 @@
     "go.autocompleteUnimportedPackages": true,
     "workbench.startupEditor": "welcomePage",
     "editor.wordBasedSuggestions": false,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
     "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
     "java.errors.incompleteClasspath.severity": "ignore",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "workbench.iconTheme": "vscode-great-icons",
     "go.useLanguageServer": true,
-    "workbench.editor.showTabs": false
+    "workbench.editor.showTabs": false,
+    "tabnine.experimentalAutoImports": true,
+    "debug.console.fontSize": 14,
+    "markdown.preview.fontSize": 16,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
 }

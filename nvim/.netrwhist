@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/Users/adityaladwa/.dotfiles/nvim'
-let g:netrw_dirhist_3='/Users/adityaladwa/.dotfiles'
-let g:netrw_dirhist_2='/Users/adityaladwa/.dotfiles/nvim'
-let g:netrw_dirhist_1='/Users/adityaladwa/.dotfiles'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/adityaladwa/src/GoHost/auth/authui/src/main/java/com/gojek/app/analytics'
+let g:netrw_dirhist_0='/Users/adityaladwa/src/GoHost/auth/authui/src/main/java/com/gojek/app'
+let g:netrw_dirhist_9='/Users/adityaladwa/src/GoHost/auth/authui/src/main/java/com/gojek'
+let g:netrw_dirhist_8='/Users/adityaladwa/src/GoHost/auth/authui/src/main/java/com'
+let g:netrw_dirhist_7='/Users/adityaladwa/src/GoHost/auth/authui/src/main/java'
+let g:netrw_dirhist_6='/Users/adityaladwa/src/GoHost/auth/authui/src/main'
+let g:netrw_dirhist_5='/Users/adityaladwa/src/GoHost/auth/authui/src'
+let g:netrw_dirhist_4='/Users/adityaladwa/src/GoHost/auth/authui'
+let g:netrw_dirhist_3='/Users/adityaladwa/src/GoHost/auth'
+let g:netrw_dirhist_2='/Users/adityaladwa/src/GoHost'

@@ -25,6 +25,8 @@ Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'json', 'markdown'] } " Prettier support
 
+" Kotlin
+Plug 'udalov/kotlin-vim'
 
 " Git
 Plug 'tpope/vim-fugitive' " Git wrapper.
