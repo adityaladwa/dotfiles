@@ -36,5 +36,8 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
-    }
+    },
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "git.confirmSync": false
 }
