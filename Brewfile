@@ -8,7 +8,7 @@ tap "homebrew/services"
 tap "miderwong/flutter"
 brew "ack"
 brew "atlassian-cli"
-brew "python@3.8"
+brew "python@3.8", link: false
 brew "cocoapods"
 brew "coreutils"
 brew "docker", link: false
