@@ -39,5 +39,6 @@
     },
     "dart.debugExternalLibraries": false,
     "dart.debugSdkLibraries": false,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "dart.previewLsp": true
 }
