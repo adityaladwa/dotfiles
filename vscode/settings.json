@@ -40,5 +40,6 @@
     "dart.debugExternalLibraries": false,
     "dart.debugSdkLibraries": false,
     "git.confirmSync": false,
-    "dart.previewLsp": true
+    "dart.previewLsp": true,
+    "editor.multiCursorModifier": "ctrlCmd"
 }

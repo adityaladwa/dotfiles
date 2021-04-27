@@ -7,3 +7,7 @@ alias gs='git status'
 alias gd='git diff'
 alias glrd='git pull --rebase origin develop'
 alias gds="git diff --staged"
+
+#Python
+alias pip="pip3"
+alias python="python3"
