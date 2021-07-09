@@ -1,6 +1,5 @@
 {
     "explorer.confirmDelete": false,
-    "workbench.colorTheme": "VS Snazzy Theme",
     "editor.fontFamily": "Iosevka",
     "editor.fontLigatures": false,
     "editor.suggestSelection": "first",
@@ -41,5 +40,13 @@
     "dart.debugSdkLibraries": false,
     "git.confirmSync": false,
     "dart.previewLsp": true,
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "editor.wordWrap": "on",
+    "explorer.openEditors.visible": 0,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "VS Snazzy Theme"
 }
