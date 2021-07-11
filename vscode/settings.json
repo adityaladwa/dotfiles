@@ -48,5 +48,5 @@
     "editor.wordWrap": "on",
     "explorer.openEditors.visible": 0,
     "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "VS Snazzy Theme"
+    "editor.autoClosingBrackets": "always"
 }
