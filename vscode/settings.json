@@ -6,7 +6,6 @@
     "editor.matchBrackets": false,
     "editor.fontSize": 18,
     "terminal.external.osxExec": "iTerm.app",
-    "window.zoomLevel": 0,
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
@@ -18,7 +17,7 @@
     "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
     "java.errors.incompleteClasspath.severity": "ignore",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "go.useLanguageServer": true,
     "workbench.editor.showTabs": false,
     "tabnine.experimentalAutoImports": true,
@@ -48,5 +47,10 @@
     "editor.wordWrap": "on",
     "explorer.openEditors.visible": 0,
     "editor.inlineSuggest.enabled": true,
-    "editor.autoClosingBrackets": "always"
+    "editor.autoClosingBrackets": "always",
+    "workbench.colorTheme": "Darcula Theme from IntelliJ",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "jupyter.askForKernelRestart": false,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false
 }

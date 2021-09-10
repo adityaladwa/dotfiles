@@ -14,8 +14,8 @@ antibody bundle < ~/.dotfiles/zsh/zsh_plugins.txt
 
 source ~/.dotfiles/zsh/pure.zsh
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/adityaladwa/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/adityaladwa/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+source /Users/adityaladwa/.config/broot/launcher/bash/br
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/adityaladwa/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/adityaladwa/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
