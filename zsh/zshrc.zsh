@@ -5,8 +5,6 @@ source ~/.dotfiles/zsh/functions/git-functions.zsh
 
 source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/zsh/env.zsh
-source ~/.dotfiles/zsh/options.zsh
-source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/work/work.zsh
 
 source <(antibody init)

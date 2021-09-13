@@ -52,5 +52,13 @@
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 1,
     "jupyter.askForKernelRestart": false,
-    "dart.warnWhenEditingFilesOutsideWorkspace": false
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "[solidity]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "solidity.compileUsingRemoteVersion": "0.6.0",
+    "python.formatting.provider": "black",
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [
+    ]
 }
