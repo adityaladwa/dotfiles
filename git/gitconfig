@@ -12,7 +12,7 @@
 	editor = nvim
 	autocrlf = input
 [commit]
-    gpgSign = true
+    gpgSign = false
 [github]
 	user = adityaladwa
 [diff]

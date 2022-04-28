@@ -60,5 +60,15 @@
     "python.formatting.provider": "black",
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [
-    ]
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "bracketPairColorizer.depreciation-notice": false
 }
