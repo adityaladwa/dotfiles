@@ -3,7 +3,7 @@
     "editor.fontFamily": "Iosevka",
     "editor.fontLigatures": false,
     "editor.suggestSelection": "first",
-    "editor.matchBrackets": false,
+    "editor.matchBrackets": "never",
     "editor.fontSize": 18,
     "terminal.external.osxExec": "iTerm.app",
     "files.autoSave": "afterDelay",
@@ -48,7 +48,7 @@
     "explorer.openEditors.visible": 0,
     "editor.inlineSuggest.enabled": true,
     "editor.autoClosingBrackets": "always",
-    "workbench.colorTheme": "Darcula Theme from IntelliJ",
+    "workbench.colorTheme": "Default Dark+",
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 1,
     "jupyter.askForKernelRestart": false,
@@ -59,8 +59,7 @@
     "solidity.compileUsingRemoteVersion": "0.6.0",
     "python.formatting.provider": "black",
     "python.autoComplete.addBrackets": true,
-    "python.autoComplete.extraPaths": [
-    ],
+    "python.autoComplete.extraPaths": [],
     "[typescriptreact]": {
         "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
     },
