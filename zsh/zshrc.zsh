@@ -12,11 +12,12 @@ antibody bundle < ~/.dotfiles/zsh/zsh_plugins.txt
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 source ~/.dotfiles/zsh/pure.zsh
 
-# source /Users/adityaladwa/.config/broot/launcher/bash/br
 
 export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval "$(pyenv init --path)"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec

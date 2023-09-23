@@ -4,7 +4,7 @@
   "editor.fontLigatures": false,
   "editor.suggestSelection": "first",
   "editor.matchBrackets": "never",
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "terminal.external.osxExec": "iTerm.app",
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
@@ -26,9 +26,7 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -57,7 +55,7 @@
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
   "solidity.compileUsingRemoteVersion": "0.6.0",
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "none",
   "python.autoComplete.addBrackets": true,
   "python.autoComplete.extraPaths": [],
   "[typescriptreact]": {
@@ -69,5 +67,10 @@
   "[typescript]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
-  "bracketPairColorizer.depreciation-notice": false
+  "bracketPairColorizer.depreciation-notice": false,
+  "python.analysis.extraPaths": [],
+  "python.analysis.completeFunctionParens": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
