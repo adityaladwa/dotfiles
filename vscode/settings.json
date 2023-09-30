@@ -1,6 +1,6 @@
 {
   "explorer.confirmDelete": false,
-  "editor.fontFamily": "Iosevka",
+  "editor.fontFamily": "Menlo",
   "editor.fontLigatures": false,
   "editor.suggestSelection": "first",
   "editor.matchBrackets": "never",
@@ -13,7 +13,7 @@
   "go.autocompleteUnimportedPackages": true,
   "workbench.startupEditor": "welcomePage",
   "editor.wordBasedSuggestions": false,
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
   "java.errors.incompleteClasspath.severity": "ignore",
   "terminal.integrated.shell.osx": "/bin/zsh",
@@ -26,7 +26,9 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -48,7 +50,6 @@
   "editor.autoClosingBrackets": "always",
   "workbench.colorTheme": "GitHub Dark",
   "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 1,
   "jupyter.askForKernelRestart": false,
   "dart.warnWhenEditingFilesOutsideWorkspace": false,
   "[solidity]": {
@@ -62,15 +63,17 @@
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "bracketPairColorizer.depreciation-notice": false,
   "python.analysis.extraPaths": [],
   "python.analysis.completeFunctionParens": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "terminal.integrated.fontFamily": "Menlo",
+  "window.zoomLevel": 1
 }
