@@ -19,7 +19,7 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
   "go.useLanguageServer": true,
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "tabnine.experimentalAutoImports": true,
   "debug.console.fontSize": 14,
   "markdown.preview.fontSize": 16,
