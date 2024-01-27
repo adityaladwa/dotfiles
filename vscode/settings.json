@@ -12,7 +12,7 @@
   "java.configuration.checkProjectSettingsExclusions": false,
   "go.autocompleteUnimportedPackages": true,
   "workbench.startupEditor": "welcomePage",
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "terminal.integrated.fontSize": 16,
   "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
   "java.errors.incompleteClasspath.severity": "ignore",
@@ -26,14 +26,12 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "dart.debugExternalLibraries": false,
   "dart.debugSdkLibraries": false,
