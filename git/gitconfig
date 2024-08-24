@@ -1,7 +1,6 @@
 [user]
 	name = Aditya Ladwa
 	email = ladwa.aditya@gmail.com
-	signingkey = F46EED4A5CCE37CC
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
@@ -11,8 +10,6 @@
 [core]
 	editor = nvim
 	autocrlf = input
-[commit]
-    gpgSign = false
 [github]
 	user = adityaladwa
 [diff]
@@ -31,8 +28,10 @@
 	whitespace = red reverse
 [alias]
 	last = log -1 HEAD
-[url "ssh://git@source.golabs.io/"]
-  insteadOf = "https://source.golabs.io/"
-
 [pull]
 	rebase = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
