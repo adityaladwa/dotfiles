@@ -20,7 +20,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "go.useLanguageServer": true,
   "workbench.editor.showTabs": "single",
-  "tabnine.experimentalAutoImports": true,
   "debug.console.fontSize": 14,
   "markdown.preview.fontSize": 16,
   "[dart]": {
@@ -76,12 +75,15 @@
   "window.zoomLevel": 1,
   "editor.inlineSuggest.suppressSuggestions": true,
   "leetcode.hint.configWebviewMarkdown": false,
-  "cody.commandCodeLenses": true,
-  "cody.autocomplete.enabled": true,
-  "cody.autocomplete.advanced.provider": "experimental-ollama",
   "workbench.editor.empty.hint": "hidden",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cody.autocomplete.disableInsideComments": true
+  "cody.autocomplete.advanced.provider": "experimental-ollama",
+  "cody.autocomplete.experimental.ollamaOptions": {
+    "url": "http://localhost:11434",
+    "model": "codellama:7b-code"
+  },
+  "cody.autocomplete.enabled": true,
+  "cody.debug.verbose": true
 }
