@@ -10,7 +10,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "java.configuration.checkProjectSettingsExclusions": false,
-  "go.autocompleteUnimportedPackages": true,
   "workbench.startupEditor": "welcomePage",
   "editor.wordBasedSuggestions": "off",
   "terminal.integrated.fontSize": 16,
@@ -18,7 +17,6 @@
   "java.errors.incompleteClasspath.severity": "ignore",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
-  "go.useLanguageServer": true,
   "workbench.editor.showTabs": "single",
   "debug.console.fontSize": 14,
   "markdown.preview.fontSize": 16,
@@ -40,7 +38,6 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
   },
-  "go.toolsManagement.autoUpdate": true,
   "editor.wordWrap": "on",
   "explorer.openEditors.visible": 0,
   "editor.inlineSuggest.enabled": true,
@@ -59,6 +56,18 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
   },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "go.formatTool": "goimports",
+  "go.lintOnSave": "package",
+  "go.useLanguageServer": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.toolsManagement.autoUpdate": true,
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
