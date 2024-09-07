@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 
-export PATH=$GOPATH/bin:$PATH
+export GOPATH=$HOME/go-workspace
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 export PATH=$HOME/Library/Android/sdk/tools:$PATH
 export PATH=/Applications/Postgres.app/Contents/Versions/10/bin:$PATH
