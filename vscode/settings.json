@@ -13,7 +13,7 @@
   "workbench.startupEditor": "welcomePage",
   "editor.wordBasedSuggestions": "off",
   "terminal.integrated.fontSize": 16,
-  "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
+  "dart.flutterSdkPath": "/Users/aditya/fvm/default",
   "java.errors.incompleteClasspath.severity": "ignore",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
