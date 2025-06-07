@@ -94,5 +94,14 @@
     "model": "codellama:7b-code"
   },
   "cody.autocomplete.enabled": true,
-  "cody.debug.verbose": true
+  "cody.debug.verbose": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "csharp": false,
+    "cpp": true,
+    "yaml": false
+  }
 }

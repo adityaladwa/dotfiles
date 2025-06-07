@@ -6,4 +6,5 @@ export GOPATH=$HOME/go-workspace
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 export PATH=$HOME/Library/Android/sdk/tools:$PATH
 export PATH=/Applications/Postgres.app/Contents/Versions/10/bin:$PATH
+export PATH=$HOME/.dotfiles/emacs/bin:$PATH
 export PATH=$HOME/Library/Android/flutter/bin:$PATH
