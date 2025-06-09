@@ -6,6 +6,8 @@ source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/zsh/env.zsh
 # source ~/.dotfiles/work/work.zsh
 
+# install antidote for zsh plugin management
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 source <(antidote init)
 antidote bundle < ~/.dotfiles/zsh/zsh_plugins.txt
 
