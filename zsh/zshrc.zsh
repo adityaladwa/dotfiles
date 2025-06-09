@@ -6,8 +6,8 @@ source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/zsh/env.zsh
 # source ~/.dotfiles/work/work.zsh
 
-source <(antibody init)
-antibody bundle < ~/.dotfiles/zsh/zsh_plugins.txt
+source <(antidote init)
+antidote bundle < ~/.dotfiles/zsh/zsh_plugins.txt
 
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 source ~/.dotfiles/zsh/pure.zsh
