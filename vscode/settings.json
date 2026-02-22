@@ -14,29 +14,13 @@
   "workbench.startupEditor": "welcomePage",
   "editor.wordBasedSuggestions": "off",
   "terminal.integrated.fontSize": 16,
-  "dart.flutterSdkPath": "/Users/aditya/fvm/default",
   "java.errors.incompleteClasspath.severity": "ignore",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showTabs": "single",
   "debug.console.fontSize": 14,
   "markdown.preview.fontSize": 16,
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
-  },
-  "dart.debugExternalLibraries": false,
-  "dart.debugSdkLibraries": false,
   "git.confirmSync": false,
-  "dart.previewLsp": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter.notebook.ipynb"
@@ -48,11 +32,6 @@
   "workbench.colorTheme": "GitHub Dark",
   "explorer.confirmDragAndDrop": false,
   "jupyter.askForKernelRestart": false,
-  "dart.warnWhenEditingFilesOutsideWorkspace": false,
-  "[solidity]": {
-    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
-  },
-  "solidity.compileUsingRemoteVersion": "0.6.0",
   "python.formatting.provider": "none",
   "python.autoComplete.addBrackets": true,
   "python.autoComplete.extraPaths": [],
@@ -90,22 +69,6 @@
   "workbench.editor.empty.hint": "hidden",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "cody.autocomplete.advanced.provider": "experimental-ollama",
-  "cody.autocomplete.experimental.ollamaOptions": {
-    "url": "http://localhost:11434",
-    "model": "codellama:7b-code"
-  },
-  "cody.autocomplete.enabled": true,
-  "cody.debug.verbose": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-    "csharp": false,
-    "cpp": true,
-    "yaml": false
   },
   "extensions.showRecommendationsOnlyOnDemand": true
 }
