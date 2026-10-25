@@ -1,5 +1,17 @@
-alias ll='ls -l'
-alias la="la -a"
+# Visual CLI Tools (Omarchy style)
+if command -v eza >/dev/null 2>&1; then
+  alias ls='eza --icons --group-directories-first'
+  alias ll='eza -l --icons --group-directories-first'
+  alias la='eza -la --icons --group-directories-first'
+  alias lt='eza --tree --level=2 --icons'
+else
+  alias ll='ls -l'
+  alias la='ls -la'
+fi
+
+if command -v bat >/dev/null 2>&1; then
+  alias cat='bat --paging=never --style=plain'
+fi
 alias vim="nvim"
 
 # Git

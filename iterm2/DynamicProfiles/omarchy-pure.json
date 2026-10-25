@@ -1,0 +1,27 @@
+{
+  "Profiles": [
+    {
+      "Name": "Omarchy Pure",
+      "Guid": "4A1E63C2-33D8-4C72-8C87-19B1A7C20E15",
+      "Normal Font": "JetBrainsMonoNF-Regular 16",
+      "Non Ascii Font": "Monaco 12",
+      "Use Ligatures": true,
+      "Columns": 100,
+      "Rows": 30,
+      "Terminal Margin": 12,
+      "Terminal VMargins": 12,
+      "Background Color": {
+        "Red Component": 0.1568627,
+        "Green Component": 0.1647058,
+        "Blue Component": 0.2117647,
+        "Color Space": "sRGB"
+      },
+      "Foreground Color": {
+        "Red Component": 0.9372549,
+        "Green Component": 0.9411765,
+        "Blue Component": 0.9215686,
+        "Color Space": "sRGB"
+      }
+    }
+  ]
+}

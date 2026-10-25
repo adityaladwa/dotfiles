@@ -1,8 +1,8 @@
+umask 0027
 ZSH_THEME="robbyrussell"
 
 export LC_ALL=en_US.UTF-8
 source ~/.dotfiles/zsh/functions/git-functions.zsh
-source ~/.dotfiles/zsh/alias.zsh
 source ~/.dotfiles/zsh/env.zsh
 # source ~/.dotfiles/work/work.zsh
 
@@ -11,8 +11,13 @@ source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 source <(antidote init)
 antidote bundle < ~/.dotfiles/zsh/zsh_plugins.txt
 
-fpath+=("$(brew --prefix)/share/zsh/site-functions")
-source ~/.dotfiles/zsh/pure.zsh
+if command -v starship >/dev/null 2>&1; then
+  eval "$(starship init zsh)"
+else
+  fpath+=("$(brew --prefix)/share/zsh/site-functions")
+  source ~/.dotfiles/zsh/pure.zsh
+fi
+source ~/.dotfiles/zsh/alias.zsh
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -37,3 +42,6 @@ export PATH="/Users/aditya/.antigravity/antigravity/bin:$PATH"
 alias claude="ollama launch claude --model llama3.2:latest"
 alias codex="ollama launch codex --model llama3.2:latest"
 
+
+# Added by Antigravity IDE
+export PATH="/Users/aditya/.antigravity-ide/antigravity-ide/bin:$PATH"

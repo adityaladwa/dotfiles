@@ -1,6 +1,7 @@
 [user]
 	name = Aditya Ladwa
 	email = ladwa.aditya@gmail.com
+	signingkey = /Users/aditya/.ssh/id_ed25519.pub
 [mergetool]
 	path = /usr/bin/nvim
 	prompt = false
@@ -37,3 +38,7 @@
 	required = true
 [push]
 	autoSetupRemote = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

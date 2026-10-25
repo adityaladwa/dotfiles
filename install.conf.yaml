@@ -24,3 +24,7 @@
     ~/.config/nvim: nvim
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    # Starship
+    ~/.config/starship.toml: starship/starship.toml
+    # iTerm2 Dynamic Profiles
+    ~/Library/Application Support/iTerm2/DynamicProfiles/omarchy-pure.json: iterm2/DynamicProfiles/omarchy-pure.json
