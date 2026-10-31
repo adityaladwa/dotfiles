@@ -1,0 +1,101 @@
+{
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "Menlo",
+  "editor.fontLigatures": false,
+  "editor.suggestSelection": "first",
+  "editor.matchBrackets": "never",
+  "editor.fontSize": 16,
+  "terminal.external.osxExec": "iTerm.app",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "go.autocompleteUnimportedPackages": true,
+  "workbench.startupEditor": "welcomePage",
+  "editor.wordBasedSuggestions": "off",
+  "terminal.integrated.fontSize": 16,
+  "dart.flutterSdkPath": "/Users/adityaladwa/code/src/flutter",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "go.useLanguageServer": true,
+  "workbench.editor.showTabs": "single",
+  "debug.console.fontSize": 14,
+  "markdown.preview.fontSize": 16,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.debugExternalLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "git.confirmSync": false,
+  "dart.previewLsp": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "editor.wordWrap": "on",
+  "explorer.openEditors.visible": 0,
+  "editor.inlineSuggest.enabled": true,
+  "editor.autoClosingBrackets": "always",
+  "workbench.colorTheme": "GitHub Dark",
+  "explorer.confirmDragAndDrop": false,
+  "jupyter.askForKernelRestart": false,
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "solidity.compileUsingRemoteVersion": "0.6.0",
+  "python.formatting.provider": "none",
+  "python.autoComplete.addBrackets": true,
+  "python.autoComplete.extraPaths": [],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "python.analysis.extraPaths": [],
+  "python.analysis.completeFunctionParens": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "terminal.integrated.fontFamily": "Menlo",
+  "window.zoomLevel": 1,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "workbench.editor.empty.hint": "hidden",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cody.autocomplete.advanced.provider": "experimental-ollama",
+  "cody.autocomplete.experimental.ollamaOptions": {
+    "url": "http://localhost:11434",
+    "model": "codellama:7b-code"
+  },
+  "cody.autocomplete.enabled": true,
+  "cody.debug.verbose": true,
+  "cursor.general.disableHttp2": true,
+  "cursorpyright.analysis.extraPaths": [],
+  "window.autoDetectColorScheme": false,
+  "terminal.integrated.env.osx": {
+    "PATH": "/Users/aditya/.cargo/bin:/Users/aditya/.local/bin:${env:PATH}"
+  },
+  "rust-analyzer.runnables.command": "/Users/aditya/.cargo/bin/cargo",
+  "rust-analyzer.runnables.extraEnv": {
+    "PATH": "/Users/aditya/.cargo/bin:/Users/aditya/.local/bin:${env:PATH}"
+  },
+  "rust-analyzer.server.extraEnv": {
+    "PATH": "/Users/aditya/.cargo/bin:/Users/aditya/.local/bin:${env:PATH}"
+  }
+}

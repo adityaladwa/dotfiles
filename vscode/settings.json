@@ -15,7 +15,6 @@
   "editor.wordBasedSuggestions": "off",
   "terminal.integrated.fontSize": 16,
   "java.errors.incompleteClasspath.severity": "ignore",
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.showTabs": "single",
   "debug.console.fontSize": 14,
@@ -32,7 +31,6 @@
   "workbench.colorTheme": "GitHub Dark",
   "explorer.confirmDragAndDrop": false,
   "jupyter.askForKernelRestart": false,
-  "python.formatting.provider": "none",
   "python.autoComplete.addBrackets": true,
   "python.autoComplete.extraPaths": [],
   "[typescriptreact]": {
@@ -56,7 +54,6 @@
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "bracketPairColorizer.depreciation-notice": false,
   "python.analysis.extraPaths": [],
   "python.analysis.completeFunctionParens": true,
   "[python]": {

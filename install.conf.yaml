@@ -12,6 +12,8 @@
 - shell:
     # Install submodules
     - [git submodule update --init --recursive, Installing submodules]
+    # Configure iTerm2 preference folder
+    - [defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/.dotfiles/iterm2" && defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true, Configuring iTerm2 preference folder]
 
 # Symlink files
 - link:
@@ -24,6 +26,17 @@
     ~/.config/nvim: nvim
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
+    # Cursor
+    ~/Library/Application Support/Cursor/User/settings.json: cursor/settings.json
+    ~/Library/Application Support/Cursor/User/keybindings.json: cursor/keybindings.json
+    # Zed
+    ~/.config/zed/settings.json: zed/settings.json
+    ~/.config/zed/keymap.json: zed/keymap.json
+    # SSH
+    ~/.ssh/config: ssh/config
+    # Global Git Ignore
+    ~/.config/git/ignore: git/ignore
     # Starship
     ~/.config/starship.toml: starship/starship.toml
     # iTerm2 Dynamic Profiles

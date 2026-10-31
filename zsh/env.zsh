@@ -6,4 +6,7 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH
 export PATH=$HOME/Library/Android/sdk/tools:$PATH
-export PATH=$HOME/.dotfiles/emacs/bin:$PATH
+
+# Bun global binaries
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

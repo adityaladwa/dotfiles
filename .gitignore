@@ -1,1 +1,4 @@
 /work
+.DS_Store
+.nvimlog
+Brewfile.lock.json
