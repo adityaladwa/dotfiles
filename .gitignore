@@ -2,3 +2,4 @@
 .DS_Store
 .nvimlog
 Brewfile.lock.json
+*.lock

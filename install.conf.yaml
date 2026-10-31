@@ -33,6 +33,9 @@
     # Zed
     ~/.config/zed/settings.json: zed/settings.json
     ~/.config/zed/keymap.json: zed/keymap.json
+    # OMP (Coding Agent)
+    ~/.omp/agent/config.yml: omp/config.yml
+    ~/.omp/agent/keybindings.yml: omp/keybindings.yml
     # SSH
     ~/.ssh/config: ssh/config
     # Global Git Ignore

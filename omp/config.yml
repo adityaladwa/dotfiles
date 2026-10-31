@@ -1,0 +1,30 @@
+modelRoles:
+  smol: google-antigravity/gemini-3.5-flash-lite:auto
+  advisor: google-antigravity/claude-opus-4-6:auto
+  default: google-antigravity/gemini-3.8-flash:medium
+  plan: google-antigravity/gemini-3.8-flash:high
+symbolPreset: nerd
+theme:
+  dark: titanium
+setupVersion: 2
+defaultThinkingLevel: auto
+completion:
+  notify: "off"
+terminal:
+  showImages: false
+astGrep:
+  enabled: true
+plan:
+  enabled: true
+hideThinkingBlock: true
+composer:
+  shape: claude
+  tokenRate: true
+statusLine:
+  preset: default
+display:
+  showTokenUsage: true
+colorBlindMode: false
+browser:
+  headless: true
+  relay: false
