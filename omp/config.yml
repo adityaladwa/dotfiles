@@ -24,7 +24,12 @@ statusLine:
   preset: default
 display:
   showTokenUsage: true
+  showTurnTime: true
 colorBlindMode: false
 browser:
   headless: true
   relay: false
+advisor:
+  enabled: true
+tasks:
+  todoClearDelay: 0
