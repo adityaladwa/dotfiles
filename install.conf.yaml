@@ -36,6 +36,7 @@
     # OMP (Coding Agent)
     ~/.omp/agent/config.yml: omp/config.yml
     ~/.omp/agent/keybindings.yml: omp/keybindings.yml
+    ~/.omp/agent/themes: omp/themes
     # SSH
     ~/.ssh/config: ssh/config
     # Global Git Ignore

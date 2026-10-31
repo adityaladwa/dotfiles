@@ -1,11 +1,11 @@
 modelRoles:
   smol: google-antigravity/gemini-3.5-flash-lite:auto
-  advisor: google-antigravity/claude-opus-4-6:auto
+  advisor: google-antigravity/claude-sonnet-4-6:auto
   default: google-antigravity/gemini-3.8-flash:medium
   plan: google-antigravity/gemini-3.8-flash:high
 symbolPreset: nerd
 theme:
-  dark: titanium
+  dark: titanium-transparent
 setupVersion: 2
 defaultThinkingLevel: auto
 completion:
@@ -30,6 +30,6 @@ browser:
   headless: true
   relay: false
 advisor:
-  enabled: true
+  enabled: false
 tasks:
   todoClearDelay: 0
