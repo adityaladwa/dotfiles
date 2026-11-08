@@ -1,0 +1,13 @@
+{
+  "programs": {
+    "omp": {
+      "name": "omp",
+      "icon": "custom-icons/omp.svg",
+      "run": ["omp"],
+      "match": ["omp"],
+      "tint": false,
+      "tile": "#1c1d21",
+      "color": "#ffffff"
+    }
+  }
+}
