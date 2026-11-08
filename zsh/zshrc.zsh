@@ -31,10 +31,5 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 
 . "$HOME/.local/bin/env"
 
-# Added by Gemini to configure Claude and Codex with local Ollama models
-alias claude="ollama launch claude --model llama3.2:latest"
+# Added by Gemini to configure Codex with local Ollama models
 alias codex="ollama launch codex --model llama3.2:latest"
-
-
-# Added by Antigravity IDE
-export PATH="/Users/aditya/.antigravity-ide/antigravity-ide/bin:$PATH"

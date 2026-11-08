@@ -15,7 +15,7 @@
 [github]
 	user = adityaladwa
 [diff]
-	tool = nvimdiff
+	tool = omnidiff
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
@@ -30,6 +30,7 @@
 	whitespace = red reverse
 [alias]
 	last = log -1 HEAD
+	odiff = !GIT_EXTERNAL_DIFF=omnidiff git diff
 [pull]
 	rebase = true
 [filter "lfs"]
@@ -43,3 +44,7 @@
 	format = ssh
 [commit]
 	gpgsign = true
+[difftool "omnidiff"]
+	cmd = omnidiff \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false

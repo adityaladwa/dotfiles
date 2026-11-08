@@ -3,10 +3,22 @@ modelRoles:
   advisor: google-antigravity/claude-sonnet-4-6:auto
   default: google-antigravity/gemini-3.8-flash:medium
   plan: google-antigravity/gemini-3.8-flash:high
+  web: web/parallel
+  slow: google-antigravity/gemini-3.8-flash:auto
+  tiny: google-antigravity/gemini-3.5-flash-lite
+  memory: google-antigravity/gemini-3.5-flash-lite
+  task: google-antigravity/gemini-3.5-flash-lite
+  vision: google-antigravity/gemini-3.5-flash-lite
+  commit: google-antigravity/gemini-3.5-flash-lite
+  widget: google-antigravity/gemini-3.5-flash-lite
+  image: google-antigravity/gemini-3-pro-image
+  speech: local/kokoro
+  dictation: local/parakeet-tdt-0.6b-v3
+  judge: google-antigravity/gemini-3.5-flash-lite
 symbolPreset: nerd
 theme:
   dark: titanium-transparent
-setupVersion: 2
+setupVersion: 3
 defaultThinkingLevel: auto
 completion:
   notify: "off"
@@ -33,3 +45,5 @@ advisor:
   enabled: false
 tasks:
   todoClearDelay: 0
+update:
+  auto: true
