@@ -34,11 +34,7 @@
     ~/.config/zed/settings.json: zed/settings.json
     ~/.config/zed/keymap.json: zed/keymap.json
     # Herdr
-    ~/.config/herdr-app/settings.json: herdr-app/settings.json
-    ~/.config/herdr-app/keys.json: herdr-app/keys.json
-    ~/.config/herdr-app/layouts: herdr-app/layouts
-    ~/.config/herdr-app/themes: herdr-app/themes
-    ~/.config/herdr-app/mods: herdr-app/mods
+    ~/.config/herdr-app: herdr-app
     # OMP (Coding Agent)
     ~/.omp/agent/config.yml: .omp/config.yml
     ~/.omp/agent/keybindings.yml: .omp/keybindings.yml

@@ -1,2 +1,16 @@
 layouts/.state/
 *.old-*
+*.sock
+/data/
+/telemetry/
+/update-notes-media/
+/update-notes.json
+/update-notes-cache.md
+/shared.json
+/view.json
+/window.json
+/installed.json
+/seen.json
+/AGENTS.md
+/gpui-kit.d.ts
+/herdr.d.ts

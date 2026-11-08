@@ -178,9 +178,12 @@ export default class AlTabs extends View {
         .flex()
         .items_center()
         .justify_center()
+        .bg(t.chip ?? "#282a36")
+        .border_1()
+        .border_color(t.border ?? "#44475a")
         .text_color(t.muted ?? "#a9adb3")
         .cursor_pointer()
-        .hover((s) => s.bg(t.raised ?? "#343746").text_color(t.foreground ?? "#eff0eb"))
+        .hover((s) => s.bg(t.raised ?? "#343746").border_color(t.tabEdge ?? "#44475a").text_color(t.foreground ?? "#eff0eb"))
         .on_click(onClick)
         .child(svg(icon).size(14));
 
@@ -196,11 +199,11 @@ export default class AlTabs extends View {
         .rounded(6)
         .text_size(11)
         .cursor_pointer()
-        .bg(on ? (t.raised ?? "#343746") : "#00000000")
+        .bg(on ? (t.raised ?? "#343746") : (t.chip ?? "#282a36"))
         .border_1()
-        .border_color(on ? (t.tabEdge ?? "#44475a") : "#00000000")
+        .border_color(on ? (t.accent ?? t.tabEdge ?? "#57c7ff") : (t.border ?? "#44475a"))
         .text_color(on ? (t.foreground ?? "#eff0eb") : (t.muted ?? "#a9adb3"))
-        .hover((s) => s.bg(t.hover ?? "#ffffff0f").text_color(t.foreground ?? "#eff0eb"))
+        .hover((s) => s.bg(t.raised ?? "#343746").border_color(t.tabEdge ?? "#44475a").text_color(t.foreground ?? "#eff0eb"))
         .on_click(() => {
           if (on) run("layout.hide", { id: "panel" });
           else {
