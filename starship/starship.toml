@@ -1,6 +1,6 @@
 add_newline = false
 
-format = "$directory$git_branch$git_status$line_break$character"
+format = "$directory$git_branch$git_status$cmd_duration$line_break$character"
 
 [directory]
 style = "bold cyan"
@@ -29,3 +29,8 @@ modified = "!${count} "
 staged = "+${count} "
 renamed = "»${count} "
 deleted = "✘${count} "
+
+[cmd_duration]
+min_time = 2_000
+format = "took [$duration]($style) "
+style = "yellow bold"

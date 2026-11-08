@@ -1,8 +1,8 @@
 # Visual CLI Tools (Omarchy style)
 if command -v eza >/dev/null 2>&1; then
   alias ls='eza --icons --group-directories-first'
-  alias ll='eza -l --icons --group-directories-first'
-  alias la='eza -la --icons --group-directories-first'
+  alias ll='eza -l --icons --group-directories-first --time-style=relative --header'
+  alias la='eza -la --icons --group-directories-first --time-style=relative --header'
   alias lt='eza --tree --level=2 --icons'
 else
   alias ll='ls -l'
