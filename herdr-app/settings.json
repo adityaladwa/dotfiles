@@ -8,9 +8,9 @@
   "font_ligatures": true,
   "pane_scrollbars": true,
   "minimum_contrast": 1,
-  "appearance": "dark",
   "theme": {
     "light": "paper",
     "dark": "al"
-  }
+  },
+  "appearance": "dark"
 }

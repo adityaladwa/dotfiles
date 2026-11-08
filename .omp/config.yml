@@ -40,7 +40,7 @@ display:
 colorBlindMode: false
 browser:
   headless: true
-  relay: false
+  relay: true
 advisor:
   enabled: false
 tasks:
