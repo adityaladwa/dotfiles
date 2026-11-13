@@ -3,6 +3,7 @@ umask 0027
 export LC_ALL=en_US.UTF-8
 source ~/.dotfiles/zsh/functions/git-functions.zsh
 source ~/.dotfiles/zsh/env.zsh
+[[ -f ~/.dotfiles/zsh/secrets.zsh ]] && source ~/.dotfiles/zsh/secrets.zsh
 # source ~/.dotfiles/work/work.zsh
 
 # History configuration

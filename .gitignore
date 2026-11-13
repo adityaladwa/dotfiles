@@ -3,3 +3,5 @@
 .nvimlog
 Brewfile.lock.json
 *.lock
+zsh/secrets.zsh
+*.secrets*
