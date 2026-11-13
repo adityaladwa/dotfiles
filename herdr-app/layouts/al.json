@@ -7,7 +7,7 @@
   "font": "JetBrainsMono Nerd Font",
   "font_size": 16,
   "font_ligatures": true,
-  "terminal_padding": [12, 12],
+  "terminal_padding": [0, 0],
   "background": "canvas",
   "divider": { "width": 1, "color": "border" },
   "children": [
@@ -70,7 +70,7 @@
         {
           "id": "work-body",
           "type": "row",
-          "padding": 8,
+          "padding": 2,
           "gap": 8,
           "children": [
             {
