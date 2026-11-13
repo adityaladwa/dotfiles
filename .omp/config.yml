@@ -21,9 +21,10 @@ theme:
 setupVersion: 3
 defaultThinkingLevel: auto
 completion:
-  notify: "on"
+  notify: "off"
 terminal:
   showImages: false
+  programStatus: false
 astGrep:
   enabled: true
 plan:
@@ -50,4 +51,4 @@ update:
 ask:
   notify: "on"
 error:
-  notify: "on"
+  notify: "off"

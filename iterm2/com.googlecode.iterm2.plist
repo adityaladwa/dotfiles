@@ -616,7 +616,7 @@
 				<real>1</real>
 			</dict>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1057,7 +1057,7 @@
 				<real>1</real>
 			</dict>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1510,7 +1510,7 @@
 				<real>1</real>
 			</dict>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
