@@ -1,7 +1,7 @@
 modelRoles:
   smol: google-antigravity/gemini-3.5-flash-lite:auto
   advisor: google-antigravity/claude-sonnet-4-6:auto
-  default: google-antigravity/gemini-3.8-flash:medium
+  default: ollama/qwen3.5:4b:medium
   plan: google-antigravity/gemini-3.8-flash:high
   web: web/parallel
   slow: google-antigravity/gemini-3.8-flash:auto
