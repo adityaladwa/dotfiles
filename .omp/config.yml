@@ -21,7 +21,7 @@ theme:
 setupVersion: 3
 defaultThinkingLevel: auto
 completion:
-  notify: "off"
+  notify: "on"
 terminal:
   showImages: false
 astGrep:
@@ -47,3 +47,7 @@ tasks:
   todoClearDelay: 0
 update:
   auto: true
+ask:
+  notify: "on"
+error:
+  notify: "on"
