@@ -24,6 +24,7 @@ brew "zsh"
 brew "sdkman/tap/sdkman-cli", trusted: true
 cask "alfred"
 cask "cursor"
+cask "fluidvoice"
 cask "font-iosevka"
 cask "font-iosevka-slab"
 cask "orbstack"
