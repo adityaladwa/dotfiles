@@ -5,6 +5,23 @@ source ~/.dotfiles/zsh/functions/git-functions.zsh
 source ~/.dotfiles/zsh/env.zsh
 # source ~/.dotfiles/work/work.zsh
 
+# History configuration
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=50000
+SAVEHIST=10000
+setopt extended_history hist_expire_dups_first hist_ignore_dups hist_ignore_space hist_verify share_history
+
+# Key bindings
+bindkey -e
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+bindkey '^[[3~' delete-char
+bindkey '^[3;5~' delete-char
+
+# Completion configuration
+autoload -Uz compinit
+compinit -C
+
 # install antidote for zsh plugin management
 source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 source <(antidote init)
