@@ -47,6 +47,3 @@ export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 
 . "$HOME/.local/bin/env"
-
-# Added by Gemini to configure Codex with local Ollama models
-alias codex="ollama launch codex --model llama3.2:latest"
