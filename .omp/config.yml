@@ -1,20 +1,41 @@
 modelRoles:
-  smol: google-antigravity/gemini-3.5-flash-lite:auto
-  advisor: google-antigravity/claude-sonnet-4-6:auto
-  default: google/gemini-4-hydrogen:medium
-  plan: google-antigravity/gemini-3.8-flash:high
+  smol: opencode-go/longcat-2.5-free:low
+  slow: opencode-go/kimi-k3.1-pro:high
+  plan: openai-codex/gpt-6-luna:max
+  task: opencode-go/deepseek-v4.1-flash:high
+  vision: opencode-go/longcat-2.5-free:medium
+  commit: opencode-go/beam-free:low
+  widget: opencode-go/beam-free:low
+  tiny: opencode-go/iceman-contributor-free:low
+  memory: opencode-go/iceman-contributor-free:low
+  advisor: openai-codex/gpt-6-luna:high
   web: web/parallel
-  slow: google-antigravity/gemini-3.8-flash:auto
-  tiny: google-antigravity/gemini-3.5-flash-lite
-  memory: google-antigravity/gemini-3.5-flash-lite
-  task: google-antigravity/gemini-3.5-flash-lite
-  vision: google-antigravity/gemini-3.5-flash-lite
-  commit: google-antigravity/gemini-3.5-flash-lite
-  widget: google-antigravity/gemini-3.5-flash-lite
-  image: google-antigravity/gemini-3-pro-image
+  image: openai-codex/gpt-image-2
   speech: local/kokoro
   dictation: local/parakeet-tdt-0.6b-v3
-  judge: google-antigravity/gemini-3.5-flash-lite
+  judge: opencode-go/beam-free:low
+  default: openai-codex/gpt-6-luna:high
+retry:
+  modelFallback: false
+  fallbackChains:
+    default: []
+    smol: []
+    slow: []
+    plan: []
+    task: []
+    vision: []
+    commit: []
+    widget: []
+    tiny: []
+    memory: []
+    advisor: []
+    web: []
+    image: []
+    speech: []
+    dictation: []
+    judge: []
+disabledProviders:
+  - google-antigravity
 symbolPreset: nerd
 theme:
   dark: titanium-transparent
@@ -24,7 +45,7 @@ completion:
   notify: "off"
 terminal:
   showImages: false
-  programStatus: false
+  programStatus: true
 astGrep:
   enabled: true
 plan:
@@ -49,6 +70,8 @@ tasks:
 update:
   auto: true
 ask:
-  notify: "on"
+  notify: "off"
 error:
   notify: "off"
+dev:
+  autoqaConsent: denied
