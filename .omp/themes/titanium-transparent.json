@@ -79,7 +79,8 @@
     "statusLineOutput": "deepBlue",
     "statusLineCost": "titaniumGold",
     "statusLineSubagents": "electricBlue",
-    "pythonMode": "#f0c040"
+    "pythonMode": "#f0c040",
+    "btwMode": "electricBlue"
   },
   "export": {
     "pageBg": "brushedTitanium",
